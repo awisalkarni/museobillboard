@@ -16,11 +16,14 @@ foreach ($rss->item as $item) {
 	$items[] = array(
 		'title' => $item->title->__toString(), 
 		'link' => $item->link->__toString(),
+		'artist' => $item->artist->__toString(),
 		'chart_item_title' => $item->chart_item_title->__toString(),
 		'description' => $item->description->__toString(),
+		'category' => $item->category->__toString(),
 		'date' => $item->pubDate->__toString(),
 		'rank_this_week' => $item->rank_this_week->__toString(),
-		'rank_last_week' => $item->rank_last_week->__toString()
+		'rank_last_week' => $item->rank_last_week->__toString(),
+		'guid' => $item->guid->__toString()
 		);
 	// var_dump($item->title);
     // echo 'Title: ', $item->title;
