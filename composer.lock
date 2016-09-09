@@ -4,9 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fe5e142edfdd7e464600bbf521065c76",
-    "content-hash": "03f1d76cbebcf9445ecf1212a5657e81",
+    "hash": "f518dde0b462e8116203c6237367c7bc",
+    "content-hash": "0fcd0a356be13c3591cef8c10a3fb845",
     "packages": [
+        {
+            "name": "anlutro/curl",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anlutro/php-curl.git",
+                "reference": "482c85b3e1635146ae967340b17a22b10c1aae80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anlutro/php-curl/zipball/482c85b3e1635146ae967340b17a22b10c1aae80",
+                "reference": "482c85b3e1635146ae967340b17a22b10c1aae80",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "anlutro\\cURL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Lutro",
+                    "email": "anlutro@gmail.com"
+                }
+            ],
+            "description": "Simple OOP cURL wrapper.",
+            "time": "2016-03-23 16:09:50"
+        },
         {
             "name": "dg/rss-php",
             "version": "v1.2",
